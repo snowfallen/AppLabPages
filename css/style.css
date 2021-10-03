@@ -1100,6 +1100,9 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  main .container-about-smart {
+    margin-top: 210px;
+  }
 }
 @media (max-width: 400px) {
   main .container-main-screan #trial-box #btn-trial #btn-video {
