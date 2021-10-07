@@ -3,10 +3,13 @@ const burger = document.querySelector('.burger'),
       arrows = document.querySelectorAll('.arrow__line'),
    arrowLeft = document.querySelector('#arrow-left'),
   arrowRigth = document.querySelector('#arrow-rigth'),
-  burgerLine = document.querySelectorAll('.burger__line');
+  burgerLine = document.querySelectorAll('.burger__line'),
+       swipes = document.querySelectorAll('.p'),
+    btnSwipe = document.querySelector('#btn-swiper');
 
 let index = 1,
-   indexA = 1;
+   indexA = 1,
+   indexB = 1;
 
 burger.addEventListener('click',menuActive)
 
@@ -66,3 +69,35 @@ function burgerBack() {
     },300)
 }
 
+
+/*for (let swipe of swipes){
+    swipe.addEventListener('click',()=>{
+        console.log(swipe);
+        activeSwipe();
+    })
+}*/
+
+swipes[0].addEventListener('click',()=>{
+    swipes[0].classList.add('active');
+    btnSwipe.style.left = '2px'
+    swipes[1].classList.remove('active');
+})
+swipes[1].addEventListener('click',()=>{
+    swipes[1].classList.add('active');
+    swipes[0].classList.remove('active');
+    btnSwipe.style.left = '130px'
+})
+function activeSwipe(){
+   
+}
+
+/*
+ if (indexB%2 == 0){
+        console.log(indexB,'true');
+        btnSwipe.style.left = '130px'
+    }
+    else{
+        console.log(indexB , 'falshe');
+        btnSwipe.style.left = '2px'
+    }
+*/ 
