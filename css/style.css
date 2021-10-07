@@ -202,6 +202,7 @@ header #container-menu menu #btn-tryfree:hover {
   transition: 0.5s;
   background-color: #fff;
   outline: 2px solid #2500F9;
+  outline-offset:2px solid #2500F9;
   border-radius: 40px;
 }
 header #container-menu menu #btn-tryfree:hover a {
@@ -424,6 +425,7 @@ main .container-main-screan__trial #trial-box #btn-trial #btn-tryfree2:hover {
   transition: 0.5s;
   background-color: #fff;
   outline: 2px solid #2500F9;
+  outline-offset:2px solid #2500F9;
   border-radius: 40px;
 }
 main .container-main-screan__trial #trial-box #btn-trial #btn-tryfree2:hover a {
@@ -852,6 +854,7 @@ main .container-designed__box #designed-txt #btn-more:hover {
   transition: 0.5s;
   background-color: #fff;
   outline: 2px solid #2500F9;
+  outline-offset:2px solid #2500F9;
   border-radius: 40px;
 }
 main .container-designed__box #designed-txt #btn-more:hover a {
