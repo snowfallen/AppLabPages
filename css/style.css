@@ -181,9 +181,9 @@ header #container-menu menu #btn-tryfree {
   background-color: #2500F9;
   border-radius: 40px;
   margin-left: 19px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 header #container-menu menu #btn-tryfree a {
   font-size: calc(12px + 0.25vw);
@@ -197,11 +197,12 @@ header #container-menu menu #btn-tryfree a {
   color: white;
 }
 header #container-menu menu #btn-tryfree:hover {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   background-color: #fff;
-  outline: 2px solid #2500F9;
+  border: 2px solid #2500F9;
+  padding: 17.5px 39px;
   border-radius: 40px;
 }
 header #container-menu menu #btn-tryfree:hover a {
@@ -411,6 +412,9 @@ main .container-main-screan__trial #trial-box #btn-trial #btn-tryfree2 {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 main .container-main-screan__trial #trial-box #btn-trial #btn-tryfree2 a {
   font-family: "Poppins", sans-serif;
@@ -419,12 +423,12 @@ main .container-main-screan__trial #trial-box #btn-trial #btn-tryfree2 a {
   color: white;
 }
 main .container-main-screan__trial #trial-box #btn-trial #btn-tryfree2:hover {
-  padding: 14.5px 39px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition:background-color 0.5s; 
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   background-color: #fff;
   border: 2px solid #2500F9;
+  padding: 14.5px 39px;
   border-radius: 40px;
 }
 main .container-main-screan__trial #trial-box #btn-trial #btn-tryfree2:hover a {
@@ -837,9 +841,9 @@ main .container-designed__box #designed-txt #btn-more {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 main .container-designed__box #designed-txt #btn-more a {
   font-family: "Poppins", sans-serif;
@@ -848,11 +852,12 @@ main .container-designed__box #designed-txt #btn-more a {
   color: white;
 }
 main .container-designed__box #designed-txt #btn-more:hover {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   background-color: #fff;
-  outline: 2px solid #2500F9;
+  border: 2px solid #2500F9;
+  padding: 14.5px 39px;
   border-radius: 40px;
 }
 main .container-designed__box #designed-txt #btn-more:hover a {
@@ -1073,9 +1078,9 @@ main .container-ultimate__box #ultimate-content #btn-all {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 main .container-ultimate__box #ultimate-content #btn-all a {
   font-family: "Poppins", sans-serif;
@@ -1084,11 +1089,12 @@ main .container-ultimate__box #ultimate-content #btn-all a {
   color: white;
 }
 main .container-ultimate__box #ultimate-content #btn-all:hover {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   background-color: #fff;
-  outline: 2px solid #2500F9;
+  border: 2px solid #2500F9;
+  padding: 14.5px 39px;
   border-radius: 40px;
 }
 main .container-ultimate__box #ultimate-content #btn-all:hover a {
@@ -1248,9 +1254,9 @@ main .container-price__box #price-info-box .price-box #trial {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 main .container-price__box #price-info-box .price-box #trial a {
   font-family: "Poppins", sans-serif;
@@ -1259,11 +1265,12 @@ main .container-price__box #price-info-box .price-box #trial a {
   color: white;
 }
 main .container-price__box #price-info-box .price-box #trial:hover {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   background-color: #fff;
-  outline: 2px solid #2500F9;
+  border: 2px solid #2500F9;
+  padding: 14.5px 39px;
   border-radius: 40px;
 }
 main .container-price__box #price-info-box .price-box #trial:hover a {
@@ -1279,9 +1286,9 @@ main .container-price__box #price-info-box .price-box #sub {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 main .container-price__box #price-info-box .price-box #sub a {
   font-family: "Poppins", sans-serif;
@@ -1290,11 +1297,12 @@ main .container-price__box #price-info-box .price-box #sub a {
   color: white;
 }
 main .container-price__box #price-info-box .price-box #sub:hover {
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
   background-color: #fff;
-  outline: 2px solid #2500F9;
+  border: 2px solid #2500F9;
+  padding: 14.5px 39px;
   border-radius: 40px;
 }
 main .container-price__box #price-info-box .price-box #sub:hover a {
@@ -2140,5 +2148,8 @@ html {
 
   main .container-main-screan #trial-box #btn-trial #btn-tryfree2 {
     padding: 16.5px 11px;
+  }
+  main .container-main-screan #trial-box #btn-trial #btn-tryfree2:hover {
+    padding: 14.5px 9px;
   }
 }
